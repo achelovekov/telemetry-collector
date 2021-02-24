@@ -1,0 +1,54 @@
+[
+    {
+      "Node": [
+        {
+          "NodeName": "data",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    },
+    {
+      "Node": [
+        {
+          "NodeName": "procSystem",
+          "ToDive": true,
+          "ToCombine": false
+        },
+        {
+          "NodeName": "procSysLoad",
+          "ToDive": true,
+          "ToCombine": false
+        },
+        {
+          "NodeName": "procSysMem",
+          "ToDive": true,
+          "ToCombine": false
+        },
+        {
+          "NodeName": "procSysCpuSummary",
+          "ToDive": true,
+          "ToCombine": false
+        },
+        {
+          "NodeName": "procKernel",
+          "ToDive": true,
+          "ToCombine": false
+        },
+        {
+          "NodeName": "procUser",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    },
+    {
+        "Node": [
+          {
+            "NodeName": "attributes",
+            "ToDive": false,
+            "ToCombine": false
+          }
+        ]
+      }
+]

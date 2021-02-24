@@ -1,0 +1,147 @@
+[
+  {
+    "item": {
+      "itemId": "bgpPeerEntry.operSt",
+      "mappings": [
+        {
+          "name": "unspecified",
+          "value": 0
+        },
+        {
+          "name": "illegal",
+          "value": 1
+        },
+        {
+          "name": "shut",
+          "value": 2
+        },
+        {
+          "name": "idle",
+          "value": 3
+        },
+        {
+          "name": "connect",
+          "value": 4
+        },
+        {
+          "name": "active",
+          "value": 5
+        },
+        {
+          "name": "open-sent",
+          "value": 6
+        },
+        {
+          "name": "open-confirm",
+          "value": 7
+        },
+        {
+          "name": "established",
+          "value": 8
+        },
+        {
+          "name": "closing",
+          "value": 9
+        },
+        {
+          "name": "error",
+          "value": 10
+        },
+        {
+          "name": "unknown",
+          "value": 11
+        }
+      ]
+    }
+  },
+  {
+    "item": {
+      "itemId": "nvoEp.operState",
+      "mappings": [
+        {
+          "name": "up",
+          "value": 1
+        },
+        {
+          "name": "down",
+          "value": 0
+        }
+      ]
+    }
+  },
+  {
+    "item": {
+      "itemId": "nvoDyPeer.state",
+      "mappings": [
+        {
+          "name": "Up",
+          "value": 1
+        },
+        {
+          "name": "Down",
+          "value": 0
+        }
+      ]
+    }
+  },
+  {
+    "item": {
+      "itemId": "l1PhysIf.adminSt",
+      "mappings": [
+        {
+          "name": "up",
+          "value": 1
+        },
+        {
+          "name": "down",
+          "value": 0
+        }
+      ]
+    }
+  },
+  {
+    "item": {
+      "itemId": "eqptSupC.operSt",
+      "mappings": [
+        {
+          "name": "online",
+          "value": 1
+        },
+        {
+          "name": "offline",
+          "value": 0
+        }
+      ]
+    }
+  },
+  {
+    "item": {
+      "itemId": "eqptLC.operSt",
+      "mappings": [
+        {
+          "name": "online",
+          "value": 1
+        },
+        {
+          "name": "offline",
+          "value": 0
+        }
+      ]
+    }
+  },
+  {
+    "item": {
+      "itemId": "procEntry.operState",
+      "mappings": [
+        {
+          "name": "up",
+          "value": 1
+        },
+        {
+          "name": "down",
+          "value": 0
+        }
+      ]
+    }
+  }
+]

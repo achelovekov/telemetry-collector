@@ -1,0 +1,38 @@
+[
+    {
+      "Node": [
+        {
+          "NodeName": "data",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    },
+    {
+      "Node": [
+        {
+          "NodeName": "imdata",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    },
+    {
+      "Node": [
+        {
+          "NodeName": "any",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    },
+    {
+      "Node": [
+        {
+          "NodeName": "attributes",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    }
+  ]

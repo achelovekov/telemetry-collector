@@ -1,0 +1,29 @@
+[
+    {
+      "Node": [
+        {
+          "NodeName": "data",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    },
+    {
+      "Node": [
+        {
+          "NodeName": "l2VlanStats",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    },
+    {
+      "Node": [
+        {
+          "NodeName": "attributes",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    }
+  ]

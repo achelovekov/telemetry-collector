@@ -1,0 +1,62 @@
+[
+    {
+      "Node": [
+        {
+          "NodeName": "data",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    },
+    {
+      "Node": [
+        {
+          "NodeName": "l1PhysIf",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    },
+    {
+      "Node": [
+        {
+          "NodeName": "attributes",
+          "ToDive": true,
+          "ToCombine": false
+        },
+        {
+          "NodeName": "children",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    },
+    {
+      "Node": [
+        {
+          "NodeName": "rmonIfIn",
+          "ToDive": false,
+          "ToCombine": false
+        },
+        {
+          "NodeName": "rmonIfOut",
+          "ToDive": false,
+          "ToCombine": false
+        },
+        {
+          "NodeName": "rmonEtherStats",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    },
+    {
+      "Node": [
+        {
+          "NodeName": "attributes",
+          "ToDive": false,
+          "ToCombine": false
+        }
+      ]
+    }
+]

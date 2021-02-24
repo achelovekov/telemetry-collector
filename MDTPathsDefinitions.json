@@ -1,0 +1,107 @@
+[
+  {
+    "mdtPath": "sys/bgp",
+    "mdtPathFiles": [
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathSysBgp.json"
+      }
+    ]  
+  },
+  {
+    "mdtPath": "sys/ospf",
+    "mdtPathFiles": [
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathSysOspf.json"
+      }
+    ]  
+  },
+  {
+    "mdtPath": "rib",
+    "mdtPathFiles": [
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathRIB.json"
+      }
+    ]  
+  },
+  {
+    "mdtPath": "mac-all",
+    "mdtPathFiles": [
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathMacAll.json"
+      }
+    ]  
+  },
+  {
+    "mdtPath": "adjacency",
+    "mdtPathFiles": [
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathAdjacency.json"
+      }
+    ]  
+  },
+  {
+    "mdtPath": "event",
+    "mdtPathFiles": [
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathEvent.json"
+      }
+    ]  
+  },
+  {
+    "mdtPath": "vxlan:sys/eps",
+    "mdtPathFiles": [
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathVxlanSysEpsNvoPeers.json"
+      },
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathVxlanSysEpsNvoNws.json"
+      }
+    ]  
+  },
+  {
+    "mdtPath": "vxlan:sys/bd",
+    "mdtPathFiles": [
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathVxlanSysBD.json"
+      }
+    ]  
+  },
+  {
+    "mdtPath": "interface:sys/intf",
+    "mdtPathFiles": [
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathInterface.json"
+      }
+    ]  
+  },
+  {
+    "mdtPath": "environment:sys/ch",
+    "mdtPathFiles": [
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathEnvironmentSyshistCardRstRec.json"
+      },
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathEnvironmentEqptDimm.json"
+      },
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathEnvironmentEqptLC.json"
+      }
+    ]  
+  },
+  {
+    "mdtPath": "resources:sys/proc",
+    "mdtPathFiles": [
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathSysProc.json"
+      }
+    ]  
+  },
+  {
+    "mdtPath": "resources:sys/procsys",
+    "mdtPathFiles": [
+      {
+        "mdtPathFile":"MDTPathFiles/MDTPathSysProcSys.json"
+      }
+    ]  
+  }
+]

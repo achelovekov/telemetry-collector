@@ -1,0 +1,75 @@
+[
+  {
+    "Node": [
+      {
+        "NodeName": "data",
+        "ToDive": false,
+        "ToCombine": false
+      }
+    ]
+  },
+  {
+    "Node": [
+      {
+        "NodeName": "eqptSupCSlot",
+        "ToDive": false,
+        "ToCombine": false
+      }
+    ]
+  },
+  {
+    "Node": [
+      {
+        "NodeName": "attributes",
+        "ToDive": true,
+        "ToCombine": false
+      },
+      {
+        "NodeName": "children",
+        "ToDive": false,
+        "ToCombine": false
+      }
+    ]
+  },
+  {
+    "Node": [
+      {
+        "NodeName": "eqptSupC",
+        "ToDive": false,
+        "ToCombine": false
+      }
+    ]
+  },
+  {
+    "Node": [
+      {
+        "NodeName": "attributes",
+        "ToDive": true,
+        "ToCombine": false
+      },
+      {
+        "NodeName": "children",
+        "ToDive": false,
+        "ToCombine": false
+      }
+    ]
+  },
+  {
+    "Node": [
+      {
+        "NodeName": "eqptDimm",
+        "ToDive": false,
+        "ToCombine": false
+      }
+    ]
+  },
+  {
+    "Node": [
+      {
+        "NodeName": "attributes",
+        "ToDive": false,
+        "ToCombine": false
+      }
+    ]
+  }
+]
