@@ -1,106 +1,106 @@
 [
   {
-    "mdtPath": "sys/bgp",
-    "mdtPathFiles": [
+    "key": "sys/bgp",
+    "paths": [
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathSysBgp.json"
+        "path":"MDTPathFiles/MDTPathSysBgp.json"
       }
     ]  
   },
   {
-    "mdtPath": "sys/ospf",
-    "mdtPathFiles": [
+    "key": "sys/ospf",
+    "paths": [
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathSysOspf.json"
+        "path":"MDTPathFiles/MDTPathSysOspf.json"
       }
     ]  
   },
   {
-    "mdtPath": "rib",
-    "mdtPathFiles": [
+    "key": "rib",
+    "paths": [
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathRIB.json"
+        "path":"MDTPathFiles/MDTPathRIB.json"
       }
     ]  
   },
   {
-    "mdtPath": "mac-all",
-    "mdtPathFiles": [
+    "key": "mac-all",
+    "paths": [
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathMacAll.json"
+        "path":"MDTPathFiles/MDTPathMacAll.json"
       }
     ]  
   },
   {
-    "mdtPath": "adjacency",
-    "mdtPathFiles": [
+    "key": "adjacency",
+    "paths": [
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathAdjacency.json"
+        "path":"MDTPathFiles/MDTPathAdjacency.json"
       }
     ]  
   },
   {
-    "mdtPath": "event",
-    "mdtPathFiles": [
+    "key": "event",
+    "paths": [
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathEvent.json"
+        "path":"MDTPathFiles/MDTPathEvent.json"
       }
     ]  
   },
   {
-    "mdtPath": "vxlan:sys/eps",
-    "mdtPathFiles": [
+    "key": "vxlan:sys/eps",
+    "paths": [
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathVxlanSysEpsNvoPeers.json"
+        "path":"MDTPathFiles/MDTPathVxlanSysEpsNvoPeers.json"
       },
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathVxlanSysEpsNvoNws.json"
+        "path":"MDTPathFiles/MDTPathVxlanSysEpsNvoNws.json"
       }
     ]  
   },
   {
-    "mdtPath": "vxlan:sys/bd",
-    "mdtPathFiles": [
+    "key": "vxlan:sys/bd",
+    "paths": [
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathVxlanSysBD.json"
+        "path":"MDTPathFiles/MDTPathVxlanSysBD.json"
       }
     ]  
   },
   {
-    "mdtPath": "interface:sys/intf",
-    "mdtPathFiles": [
+    "key": "interface:sys/intf",
+    "paths": [
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathInterface.json"
+        "path":"MDTPathFiles/MDTPathInterface.json"
       }
     ]  
   },
   {
-    "mdtPath": "environment:sys/ch",
-    "mdtPathFiles": [
+    "key": "environment:sys/ch",
+    "paths": [
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathEnvironmentSyshistCardRstRec.json"
+        "path":"MDTPathFiles/MDTPathEnvironmentSyshistCardRstRec.json"
       },
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathEnvironmentEqptDimm.json"
+        "path":"MDTPathFiles/MDTPathEnvironmentEqptDimm.json"
       },
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathEnvironmentEqptLC.json"
+        "path":"MDTPathFiles/MDTPathEnvironmentEqptLC.json"
       }
     ]  
   },
   {
-    "mdtPath": "resources:sys/proc",
-    "mdtPathFiles": [
+    "key": "resources:sys/proc",
+    "paths": [
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathSysProc.json"
+        "path":"MDTPathFiles/MDTPathSysProc.json"
       }
     ]  
   },
   {
-    "mdtPath": "resources:sys/procsys",
-    "mdtPathFiles": [
+    "key": "resources:sys/procsys",
+    "paths": [
       {
-        "mdtPathFile":"MDTPathFiles/MDTPathSysProcSys.json"
+        "path":"MDTPathFiles/MDTPathSysProcSys.json"
       }
     ]  
   }

@@ -15,8 +15,6 @@ func worker(src map[string]interface{}, ESClient cu.ESClient, ESIndex string, pa
 	buf := make([]map[string]interface{}, 0)
 	pathPassed := make([]string, 0)
 
-	//cu.PrettyPrint(src)
-
 	cu.FlattenMap(src, path, pathIndex, pathPassed, mode, header, &buf, filter, enrich)
 	cu.ESPush(ESClient, ESIndex, buf)
 }
