@@ -19,7 +19,10 @@
     "key": "rib",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathRIB.json"
+        "path":"MDTPathFiles/MDTPathRIBUpdate.json"
+      },
+      {
+        "path":"MDTPathFiles/MDTPathRIBDelete.json"
       }
     ]  
   },

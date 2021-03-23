@@ -1,0 +1,20 @@
+[
+  {
+    "Node": [
+      {
+        "NodeName": "data",
+        "ToDive": false,
+        "ToCombine": false
+      }
+    ]
+  },
+  {
+    "Node": [
+      {
+        "NodeName": "nextHop",
+        "ToDive": false,
+        "ToCombine": false
+      }
+    ]
+  }
+]
