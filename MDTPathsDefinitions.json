@@ -3,7 +3,10 @@
     "key": "sys/bgp",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathSysBgp.json"
+        "path":"MDTPathFiles/MDTPathSysBgpbgpPeerEntryStats.json"
+      },
+      {
+        "path":"MDTPathFiles/MDTPathSysBgpbgpPeerAfEntry.json"
       }
     ]  
   },
