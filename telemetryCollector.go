@@ -3,6 +3,7 @@ package main
 import (
 	cu "github.com/achelovekov/collectorutils"
 	"net/http"
+	"log"
 )
 
 type PostReqHandler struct {
@@ -131,7 +132,12 @@ func (prh *PostReqHandler) sysProcSysHandler(w http.ResponseWriter, httpRequest 
 
 func main() {
 
-	ESClient, Config, KeysMap, Filter, Enrich := cu.Initialize("config.json")
+	Config, KeysMap, Filter, Enrich := cu.Initialize("config.json")
+
+	ESClient, error := cu.ESConnect(Config.ESHost, Config.ESPort)
+	if error != nil {
+		log.Fatalf("error: %s", error)
+	}
 
 	postReqHandler := &PostReqHandler{&cu.PostReqHandler{ESClient: ESClient, Filter: Filter, Enrich: Enrich, Config: Config, KeysMap: KeysMap, Mode: 2}}
 
