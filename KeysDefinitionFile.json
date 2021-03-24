@@ -3,10 +3,10 @@
     "key": "sys/bgp",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathSysBgpbgpPeerEntryStats.json"
+        "path":"PathFiles/MDTPathSysBgpbgpPeerEntryStats.json"
       },
       {
-        "path":"MDTPathFiles/MDTPathSysBgpbgpPeerAfEntry.json"
+        "path":"PathFiles/MDTPathSysBgpbgpPeerAfEntry.json"
       }
     ]  
   },
@@ -14,7 +14,7 @@
     "key": "sys/ospf",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathSysOspf.json"
+        "path":"PathFiles/MDTPathSysOspf.json"
       }
     ]  
   },
@@ -22,10 +22,10 @@
     "key": "rib",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathRIBUpdate.json"
+        "path":"PathFiles/MDTPathRIBUpdate.json"
       },
       {
-        "path":"MDTPathFiles/MDTPathRIBDelete.json"
+        "path":"PathFiles/MDTPathRIBDelete.json"
       }
     ]  
   },
@@ -33,7 +33,7 @@
     "key": "mac-all",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathMacAll.json"
+        "path":"PathFiles/MDTPathMacAll.json"
       }
     ]  
   },
@@ -41,7 +41,7 @@
     "key": "adjacency",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathAdjacency.json"
+        "path":"PathFiles/MDTPathAdjacency.json"
       }
     ]  
   },
@@ -49,7 +49,7 @@
     "key": "event",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathEvent.json"
+        "path":"PathFiles/MDTPathEvent.json"
       }
     ]  
   },
@@ -57,10 +57,10 @@
     "key": "vxlan:sys/eps",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathVxlanSysEpsNvoPeers.json"
+        "path":"PathFiles/MDTPathVxlanSysEpsNvoPeers.json"
       },
       {
-        "path":"MDTPathFiles/MDTPathVxlanSysEpsNvoNws.json"
+        "path":"PathFiles/MDTPathVxlanSysEpsNvoNws.json"
       }
     ]  
   },
@@ -68,7 +68,7 @@
     "key": "vxlan:sys/bd",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathVxlanSysBD.json"
+        "path":"PathFiles/MDTPathVxlanSysBD.json"
       }
     ]  
   },
@@ -76,7 +76,7 @@
     "key": "interface:sys/intf",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathInterface.json"
+        "path":"PathFiles/MDTPathInterface.json"
       }
     ]  
   },
@@ -84,13 +84,13 @@
     "key": "environment:sys/ch",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathEnvironmentSyshistCardRstRec.json"
+        "path":"PathFiles/MDTPathEnvironmentSyshistCardRstRec.json"
       },
       {
-        "path":"MDTPathFiles/MDTPathEnvironmentEqptDimm.json"
+        "path":"PathFiles/MDTPathEnvironmentEqptDimm.json"
       },
       {
-        "path":"MDTPathFiles/MDTPathEnvironmentEqptLC.json"
+        "path":"PathFiles/MDTPathEnvironmentEqptLC.json"
       }
     ]  
   },
@@ -98,7 +98,7 @@
     "key": "resources:sys/proc",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathSysProc.json"
+        "path":"PathFiles/MDTPathSysProc.json"
       }
     ]  
   },
@@ -106,7 +106,7 @@
     "key": "resources:sys/procsys",
     "paths": [
       {
-        "path":"MDTPathFiles/MDTPathSysProcSys.json"
+        "path":"PathFiles/MDTPathSysProcSys.json"
       }
     ]  
   }
