@@ -132,7 +132,8 @@ func (prh *PostReqHandler) sysProcSysHandler(w http.ResponseWriter, httpRequest 
 
 func main() {
 
-	Config, KeysMap, Filter, Enrich := cu.Initialize("config.json")
+	Config, Filter, Enrich := cu.Initialize("config.json")
+	KeysMap := cu.LoadKeysMap(Config.KeysDefinitionFile)
 
 	ESClient, error := cu.ESConnect(Config.ESHost, Config.ESPort)
 	if error != nil {
