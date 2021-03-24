@@ -1,7 +1,7 @@
 {
   "ESHost": "10.62.186.54",
   "ESPort": "9200",
-  "MDTPathsFile": "MDTPathsDefinitions.json",
+  "KeysDefinitionFile": "KeysDefinitionFile.json",
   "ESIndex": "telemetry-cadence",
   "FilterFile" : "filter.json",
   "EnrichFile" : "enrich.json"

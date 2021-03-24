@@ -15,7 +15,7 @@ func worker(src map[string]interface{}, ESClient cu.ESClient, ESIndex string, pa
 	buf := make([]map[string]interface{}, 0)
 	pathPassed := make([]string, 0)
 
-	cu.PrettyPrint(src)
+/* 	cu.PrettyPrint(src) */
 
 	cu.FlattenMap(src, path, pathIndex, pathPassed, mode, header, &buf, filter, enrich)
 	cu.ESPush(ESClient, ESIndex, buf)
@@ -24,116 +24,116 @@ func worker(src map[string]interface{}, ESClient cu.ESClient, ESIndex string, pa
 func (prh *PostReqHandler) SysBgp(w http.ResponseWriter, httpRequest *http.Request) {
 	src := cu.GetHttpBody(httpRequest)	
 
-	for i := range(prh.MDTPaths["sys/bgp"]) {
+	for i := range(prh.KeysMap["sys/bgp"]) {
 		src := cu.CopyMap(src)
-		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.MDTPaths["sys/bgp"][i], cu.Cadence, prh.Filter, prh.Enrich)
+		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.KeysMap["sys/bgp"][i], cu.Cadence, prh.Filter, prh.Enrich)
 	}	
 }
 
 func (prh *PostReqHandler) SysOspf(w http.ResponseWriter, httpRequest *http.Request) {
 	src := cu.GetHttpBody(httpRequest)	
 
-	for i := range(prh.MDTPaths["sys/ospf"]) {
+	for i := range(prh.KeysMap["sys/ospf"]) {
 		src := cu.CopyMap(src)
-		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.MDTPaths["sys/ospf"][i], cu.Cadence, prh.Filter, prh.Enrich)
+		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.KeysMap["sys/ospf"][i], cu.Cadence, prh.Filter, prh.Enrich)
 	}	
 }
 
 func (prh *PostReqHandler) RIBHandler(w http.ResponseWriter, httpRequest *http.Request) {
 	src := cu.GetHttpBody(httpRequest)	
 
-	for i := range(prh.MDTPaths["rib"]) {
+	for i := range(prh.KeysMap["rib"]) {
 		src := cu.CopyMap(src)
-		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.MDTPaths["rib"][i], cu.Native, prh.Filter, prh.Enrich)
+		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.KeysMap["rib"][i], cu.Native, prh.Filter, prh.Enrich)
 	}	
 }
 
 func (prh *PostReqHandler) MacAllHandler(w http.ResponseWriter, httpRequest *http.Request) {
 	src := cu.GetHttpBody(httpRequest)	
 
-	for i := range(prh.MDTPaths["mac-all"]) {
+	for i := range(prh.KeysMap["mac-all"]) {
 		src := cu.CopyMap(src)
-		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.MDTPaths["mac-all"][i], cu.Native, prh.Filter, prh.Enrich)
+		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.KeysMap["mac-all"][i], cu.Native, prh.Filter, prh.Enrich)
 	}	
 }
 
 func (prh *PostReqHandler) AdjacencyHandler(w http.ResponseWriter, httpRequest *http.Request) {
 	src := cu.GetHttpBody(httpRequest)	
 
-	for i := range(prh.MDTPaths["adjacency"]) {
+	for i := range(prh.KeysMap["adjacency"]) {
 		src := cu.CopyMap(src)
-		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.MDTPaths["adjacency"][i], cu.Native, prh.Filter, prh.Enrich)
+		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.KeysMap["adjacency"][i], cu.Native, prh.Filter, prh.Enrich)
 	}	
 }
 
 func (prh *PostReqHandler) EventHandler(w http.ResponseWriter, httpRequest *http.Request) {
 	src := cu.GetHttpBody(httpRequest)	
 
-	for i := range(prh.MDTPaths["event"]) {
+	for i := range(prh.KeysMap["event"]) {
 		src := cu.CopyMap(src)
-		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.MDTPaths["event"][i], cu.Event, prh.Filter, prh.Enrich)
+		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.KeysMap["event"][i], cu.Event, prh.Filter, prh.Enrich)
 	}	
 }
 
 func (prh *PostReqHandler) VxlanSysEps(w http.ResponseWriter, httpRequest *http.Request) {
 	src := cu.GetHttpBody(httpRequest)	
 
-	for i := range(prh.MDTPaths["vxlan:sys/eps"]) {
+	for i := range(prh.KeysMap["vxlan:sys/eps"]) {
 		src := cu.CopyMap(src)
-		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.MDTPaths["vxlan:sys/eps"][i], cu.Cadence, prh.Filter, prh.Enrich)
+		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.KeysMap["vxlan:sys/eps"][i], cu.Cadence, prh.Filter, prh.Enrich)
 	}	
 }
 
 func (prh *PostReqHandler) VxlanSysBD(w http.ResponseWriter, httpRequest *http.Request) {
 	src := cu.GetHttpBody(httpRequest)	
 
-	for i := range(prh.MDTPaths["vxlan:sys/bd"]) {
+	for i := range(prh.KeysMap["vxlan:sys/bd"]) {
 		src := cu.CopyMap(src)
-		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.MDTPaths["vxlan:sys/bd"][i], cu.Cadence, prh.Filter, prh.Enrich)
+		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.KeysMap["vxlan:sys/bd"][i], cu.Cadence, prh.Filter, prh.Enrich)
 	}	
 }
 
 func (prh *PostReqHandler) SysIntfHandler(w http.ResponseWriter, httpRequest *http.Request) {
 	src := cu.GetHttpBody(httpRequest)	
 
-	for i := range(prh.MDTPaths["interface:sys/intf"]) {
+	for i := range(prh.KeysMap["interface:sys/intf"]) {
 		src := cu.CopyMap(src)
-		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.MDTPaths["interface:sys/intf"][i], cu.Cadence, prh.Filter, prh.Enrich)
+		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.KeysMap["interface:sys/intf"][i], cu.Cadence, prh.Filter, prh.Enrich)
 	}	
 }
 
 func (prh *PostReqHandler) SysChHandler(w http.ResponseWriter, httpRequest *http.Request) {
 	src := cu.GetHttpBody(httpRequest)	
 
-	for i := range(prh.MDTPaths["environment:sys/ch"]) {
+	for i := range(prh.KeysMap["environment:sys/ch"]) {
 		src := cu.CopyMap(src)
-		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.MDTPaths["environment:sys/ch"][i], cu.Cadence, prh.Filter, prh.Enrich)
+		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.KeysMap["environment:sys/ch"][i], cu.Cadence, prh.Filter, prh.Enrich)
 	}	
 }
 
 func (prh *PostReqHandler) sysProcHandler(w http.ResponseWriter, httpRequest *http.Request) {
 	src := cu.GetHttpBody(httpRequest)	
 
-	for i := range(prh.MDTPaths["resources:sys/proc"]) {
+	for i := range(prh.KeysMap["resources:sys/proc"]) {
 		src := cu.CopyMap(src)
-		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.MDTPaths["resources:sys/proc"][i], cu.Cadence, prh.Filter, prh.Enrich)
+		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.KeysMap["resources:sys/proc"][i], cu.Cadence, prh.Filter, prh.Enrich)
 	}	
 }
 
 func (prh *PostReqHandler) sysProcSysHandler(w http.ResponseWriter, httpRequest *http.Request) {
 	src := cu.GetHttpBody(httpRequest)	
 
-	for i := range(prh.MDTPaths["resources:sys/procsys"]) {
+	for i := range(prh.KeysMap["resources:sys/procsys"]) {
 		src := cu.CopyMap(src)
-		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.MDTPaths["resources:sys/procsys"][i], cu.Cadence, prh.Filter, prh.Enrich)
+		go worker(src, prh.ESClient, prh.Config.ESIndex, prh.KeysMap["resources:sys/procsys"][i], cu.Cadence, prh.Filter, prh.Enrich)
 	}	
 }
 
 func main() {
 
-	ESClient, Config, MDTPaths, Filter, Enrich := cu.Initialize("config.json")
+	ESClient, Config, KeysMap, Filter, Enrich := cu.Initialize("config.json")
 
-	postReqHandler := &PostReqHandler{&cu.PostReqHandler{ESClient: ESClient, Filter: Filter, Enrich: Enrich, Config: Config, MDTPaths: MDTPaths, Mode: 2}}
+	postReqHandler := &PostReqHandler{&cu.PostReqHandler{ESClient: ESClient, Filter: Filter, Enrich: Enrich, Config: Config, KeysMap: KeysMap, Mode: 2}}
 
 	http.HandleFunc("/network/sys/bgp", postReqHandler.SysBgp)
 	http.HandleFunc("/network/sys/ospf", postReqHandler.SysOspf)
