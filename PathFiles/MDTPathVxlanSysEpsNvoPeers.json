@@ -1,4 +1,8 @@
-[
+{
+  "PathOptions": {
+    "IgnoreTail": true
+  },
+  "PathData":[
     {
       "Node": [
         {
@@ -91,3 +95,4 @@
       ]
     }
 ]
+}

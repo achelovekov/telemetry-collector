@@ -1,0 +1,113 @@
+[
+  {
+    "ChunkName": "sys/bgp",
+    "Paths": [
+      {
+        "Path":"PathFiles/MDTPathSysBgpbgpPeerEntryStats.json"
+      },
+      {
+        "Path":"PathFiles/MDTPathSysBgpbgpPeerAfEntry.json"
+      }
+    ]  
+  },
+  {
+    "ChunkName": "sys/ospf",
+    "Paths": [
+      {
+        "Path":"PathFiles/MDTPathSysOspf.json"
+      }
+    ]  
+  },
+  {
+    "ChunkName": "rib",
+    "Paths": [
+      {
+        "Path":"PathFiles/MDTPathRIBUpdate.json"
+      },
+      {
+        "Path":"PathFiles/MDTPathRIBDelete.json"
+      }
+    ]  
+  },
+  {
+    "ChunkName": "mac-all",
+    "Paths": [
+      {
+        "Path":"PathFiles/MDTPathMacAll.json"
+      }
+    ]  
+  },
+  {
+    "ChunkName": "adjacency",
+    "Paths": [
+      {
+        "Path":"PathFiles/MDTPathAdjacency.json"
+      }
+    ]  
+  },
+  {
+    "ChunkName": "event",
+    "Paths": [
+      {
+        "Path":"PathFiles/MDTPathEvent.json"
+      }
+    ]  
+  },
+  {
+    "ChunkName": "vxlan:sys/eps",
+    "Paths": [
+      {
+        "Path":"PathFiles/MDTPathVxlanSysEpsNvoPeers.json"
+      },
+      {
+        "Path":"PathFiles/MDTPathVxlanSysEpsNvoNws.json"
+      }
+    ]  
+  },
+  {
+    "ChunkName": "vxlan:sys/bd",
+    "Paths": [
+      {
+        "Path":"PathFiles/MDTPathVxlanSysBD.json"
+      }
+    ]  
+  },
+  {
+    "ChunkName": "interface:sys/intf",
+    "Paths": [
+      {
+        "Path":"PathFiles/MDTPathInterface.json"
+      }
+    ]  
+  },
+  {
+    "ChunkName": "environment:sys/ch",
+    "Paths": [
+      {
+        "Path":"PathFiles/MDTPathEnvironmentSyshistCardRstRec.json"
+      },
+      {
+        "Path":"PathFiles/MDTPathEnvironmentEqptDimm.json"
+      },
+      {
+        "Path":"PathFiles/MDTPathEnvironmentEqptLC.json"
+      }
+    ]  
+  },
+  {
+    "ChunkName": "resources:sys/proc",
+    "Paths": [
+      {
+        "Path":"PathFiles/MDTPathSysProc.json"
+      }
+    ]  
+  },
+  {
+    "ChunkName": "resources:sys/procsys",
+    "Paths": [
+      {
+        "Path":"PathFiles/MDTPathSysProcSys.json"
+      }
+    ]  
+  }
+]
