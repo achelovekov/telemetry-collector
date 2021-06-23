@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"net/http"
 
@@ -137,8 +136,6 @@ func main() {
 
 	Config, Filter, Enrich := cu.Initialize("config.json")
 	chunksProcessingPaths := cu.LoadChunksProcessingPaths(Config.ChunksDefinitionFile)
-
-	fmt.Println(chunksProcessingPaths)
 
 	ESClient, error := cu.ESConnect(Config.ESHost, Config.ESPort)
 	if error != nil {
