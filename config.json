@@ -1,8 +1,8 @@
 {
-  "ESHost": "10.62.186.54",
+  "ESHost": "10.2.0.32",
   "ESPort": "9200",
   "ChunksDefinitionFile": "ChunksDefinitionFile.json",
-  "ESIndex": "telemetry-cadence",
+  "ESIndex": "telemetry",
   "FilterFile" : "filter.json",
   "EnrichFile" : "enrich.json"
 }
