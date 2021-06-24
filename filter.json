@@ -375,9 +375,6 @@
     "item": "bgpPeerAfEntry.treatAswithDrawnPaths"
   },
   {
-    "item": "bgpPeerAfEntry.type"
-  },
-  {
     "item": "bgpPeerAfEntry.withDrawnPaths"
   },
   {
@@ -466,5 +463,68 @@
   },
   {
     "item": "bgpPeerEntry.updateElapsedTs"   
+  },
+  {
+    "item": "bgpPeerEntry.modTs"
+  },
+  {
+    "item": "bgpPeerEntryStats.byteRcvd"
+  },
+  {
+    "item": "bgpPeerEntryStats.byteSent"
+  },
+  {
+    "item": "bgpPeerEntryStats.capRcvd"
+  },
+  {
+    "item": "bgpPeerEntryStats.capSent"
+  },
+  {
+    "item": "bgpPeerEntryStats.connectRetryTs" 
+  },
+  {
+    "item": "bgpPeerEntryStats.kaRcvd"
+  },
+  {
+    "item": "bgpPeerEntryStats.kaSent"
+  },
+  {
+    "item": "bgpPeerEntryStats.kaTs" 
+  },
+  {
+    "item": "bgpPeerEntryStats.msgRcvd"
+  },
+  {
+    "item": "bgpPeerEntryStats.msgSent"
+  },
+  {
+    "item": "bgpPeerEntryStats.notifRcvd"
+  },
+  {
+    "item": "bgpPeerEntryStats.notifSent"
+  },
+  {
+    "item": "bgpPeerEntryStats.openRcvd"
+  },
+  {
+    "item": "bgpPeerEntryStats.openSent"
+  },
+  {
+    "item": "bgpPeerEntryStats.rn"
+  },
+  {
+    "item": "bgpPeerEntryStats.routeRefreshRcvd"
+  },
+  {
+    "item": "bgpPeerEntryStats.routeRefreshSent"
+  },
+  {
+    "item": "bgpPeerEntryStats.totalDiscardedAttributes"
+  },
+  {
+    "item": "bgpPeerEntryStats.updateRcvd"
+  },
+  {
+    "item": "bgpPeerEntryStats.updateSent"
   }
- ] 
+] 
