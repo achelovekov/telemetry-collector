@@ -1,8 +1,470 @@
 [
   {
-    "item": "bgpPeerEntry.modTs"
+    "item": "bgpDom.allocIndex"
   },
   {
-    "item": "ospfArea.modTs"
+    "item": "bgpDom.always"
+  },
+  {
+    "item": "bgpDom.bestPathIntvl"
+  },
+  {
+    "item": "bgpDom.bgpCfgFailedBmp"
+  },
+  {
+    "item": "bgpDom.bgpCfgFailedTs"
+  },
+  {
+    "item": "bgpDom.bgpCfgState"
+  },
+  {
+    "item": "bgpDom.childAction"
+  },
+  {
+    "item": "bgpDom.clusterId"
+  },
+  {
+    "item": "bgpDom.firstPeerUpTs" 
+  },
+  {
+    "item": "bgpDom.holdIntvl"
+  },
+  {
+    "item": "bgpDom.id"
+  },
+  {
+    "item": "bgpDom.kaIntvl"
+  },
+  {
+    "item": "bgpDom.localAsn"
+  },
+  {
+    "item": "bgpDom.maxAsLimit"
+  },
+  {
+    "item": "bgpDom.modTs"
+  },
+  {
+    "item": "bgpDom.mode"
+  },
+  {
+    "item": "bgpDom.name"
+  },
+  {
+    "item": "bgpDom.numEstPeers"
+  },
+  {
+    "item": "bgpDom.numPeers"
+  },
+  {
+    "item": "bgpDom.numPeersPending"
+  },
+  {
+    "item": "bgpDom.operRtrId"
+  },
+  {
+    "item": "bgpDom.operSt"
+  },
+  {
+    "item": "bgpDom.pfxPeerTimeout"
+  },
+  {
+    "item": "bgpDom.pfxPeerWaitTime"
+  },
+  {
+    "item": "bgpDom.reConnIntvl"
+  },
+  {
+    "item": "bgpDom.rn"
+  },
+  {
+    "item": "bgpDom.routerMac" 
+  },
+  {
+    "item": "bgpDom.rtrId"
+  },
+  {
+    "item": "bgpDom.status"
+  },
+  {
+    "item": "bgpDom.vnid"
+  },
+  {
+    "item": "bgpDom.vtepIp"
+  },
+  {
+    "item": "bgpDom.vtepVirtIp"
+  },
+  {
+    "item": "bgpEntity.adminSt"
+  },
+  {
+    "item": "bgpEntity.childAction"
+  },
+  {
+    "item": "bgpEntity.dn"
+  },
+  {
+    "item": "bgpEntity.modTs" 
+  },
+  {
+    "item": "bgpEntity.name"
+  },
+  {
+    "item": "bgpEntity.operSt"
+  },
+  {
+    "item": "bgpEntity.status"
+  },
+  {
+    "item": "bgpInst.activateTs" 
+  },
+  {
+    "item": "bgpInst.adminSt"
+  },
+  {
+    "item": "bgpInst.affGrpActv"
+  },
+  {
+    "item": "bgpInst.asPathDbSz"
+  },
+  {
+    "item": "bgpInst.asn"
+  },
+  {
+    "item": "bgpInst.attribDbSz"
+  },
+  {
+    "item": "bgpInst.childAction"
+  },
+  {
+    "item": "bgpInst.createTs" 
+  },
+  {
+    "item": "bgpInst.ctrl"
+  },
+  {
+    "item": "bgpInst.disPolBatch"
+  },
+  {
+    "item": "bgpInst.disPolBatchv4PfxLst"
+  },
+  {
+    "item": "bgpInst.disPolBatchv6PfxLst"
+  },
+  {
+    "item": "bgpInst.enhancedErr"
+  },
+  {
+    "item": "bgpInst.epeActivePeers"
+  },
+  {
+    "item": "bgpInst.epeConfiguredPeers"
+  },
+  {
+    "item": "bgpInst.fabricSoo" 
+  },
+  {
+    "item": "bgpInst.flushRoutes"
+  },
+  {
+    "item": "bgpInst.isolate"
+  },
+  {
+    "item": "bgpInst.lnkStClnt"
+  },
+  {
+    "item": "bgpInst.lnkStSrvr"
+  },
+  {
+    "item": "bgpInst.medDampIntvl"
+  },
+  {
+    "item": "bgpInst.memAlert"
+  },
+  {
+    "item": "bgpInst.modTs" 
+  },
+  {
+    "item": "bgpInst.name"
+  },
+  {
+    "item": "bgpInst.nhSupprDefRes"
+  },
+  {
+    "item": "bgpInst.numAsPath"
+  },
+  {
+    "item": "bgpInst.numRtAttrib"
+  },
+  {
+    "item": "bgpInst.operErr"
+  },
+  {
+    "item": "bgpInst.rn"
+  },
+  {
+    "item": "bgpInst.srgbMaxLbl"
+  },
+  {
+    "item": "bgpInst.srgbMinLbl"
+  },
+  {
+    "item": "bgpInst.status"
+  },
+  {
+    "item": "bgpInst.waitDoneTs" 
+  },
+  {
+    "item": "bgpPeer.activePfxPeers"
+  },
+  {
+    "item": "bgpPeer.adminSt"
+  },
+  {
+    "item": "bgpPeer.affGrp"
+  },
+  {
+    "item": "bgpPeer.asn"
+  },
+  {
+    "item": "bgpPeer.bgpCfgFailedBmp"
+  },
+  {
+    "item": "bgpPeer.bgpCfgFailedTs"
+  },
+  {
+    "item": "bgpPeer.bgpCfgState"
+  },
+  {
+    "item": "bgpPeer.bmpSrvId1St"
+  },
+  {
+    "item": "bgpPeer.bmpSrvId2St"
+  },
+  {
+    "item": "bgpPeer.capSuppr4ByteAsn"
+  },
+  {
+    "item": "bgpPeer.childAction"
+  },
+  {
+    "item": "bgpPeer.connMode"
+  },
+  {
+    "item": "bgpPeer.ctrl"
+  },
+  {
+    "item": "bgpPeer.curPfxPeers"
+  },
+  {
+    "item": "bgpPeer.dscp"
+  },
+  {
+    "item": "bgpPeer.dynRtMap"
+  },
+  {
+    "item": "bgpPeer.epe"
+  },
+  {
+    "item": "bgpPeer.epePeerSet"
+  },
+  {
+    "item": "bgpPeer.gShutOperSt"
+  },
+  {
+    "item": "bgpPeer.holdIntvl"
+  },
+  {
+    "item": "bgpPeer.inheritContPeerCtrl"
+  },
+  {
+    "item": "bgpPeer.kaIntvl"
+  },
+  {
+    "item": "bgpPeer.logNbrChgs"
+  },
+  {
+    "item": "bgpPeer.lowMemExempt"
+  },
+  {
+    "item": "bgpPeer.maxCurPeers"
+  },
+  {
+    "item": "bgpPeer.maxPeerCnt"
+  },
+  {
+    "item": "bgpPeer.maxPfxPeers"
+  },
+  {
+    "item": "bgpPeer.modTs" 
+  },
+  {
+    "item": "bgpPeer.name"
+  },
+  {
+    "item": "bgpPeer.passwdType"
+  },
+  {
+    "item": "bgpPeer.password"
+  },
+  {
+    "item": "bgpPeer.peerImp"
+  },
+  {
+    "item": "bgpPeer.peerType"
+  },
+  {
+    "item": "bgpPeer.privateASctrl"
+  },
+  {
+    "item": "bgpPeer.rn"
+  },
+  {
+    "item": "bgpPeer.sessionContImp"
+  },
+  {
+    "item": "bgpPeer.srcIf"
+  },
+  {
+    "item": "bgpPeer.status"
+  },
+  {
+    "item": "bgpPeer.totalPfxPeers"
+  },
+  {
+    "item": "bgpPeer.ttl"
+  },
+  {
+    "item": "bgpPeer.ttlScrtyHops"
+  },
+  {
+    "item": "bgpPeerAfEntry.firstEorRcvdTs" 
+  },
+  {
+    "item": "bgpPeerAfEntry.flags"
+  },
+  {
+    "item": "bgpPeerAfEntry.lastEorRcvdTs" 
+  },
+  {
+    "item": "bgpPeerAfEntry.memAccPaths"
+  },
+  {
+    "item": "bgpPeerAfEntry.peerTblVer"
+  },
+  {
+    "item": "bgpPeerAfEntry.pfxFlushed"
+  },
+  {
+    "item": "bgpPeerAfEntry.pfxSaved"
+  },
+  {
+    "item": "bgpPeerAfEntry.pfxSent"
+  },
+  {
+    "item": "bgpPeerAfEntry.rn"
+  },
+  {
+    "item": "bgpPeerAfEntry.tblSt"
+  },
+  {
+    "item": "bgpPeerAfEntry.tblVer"
+  },
+  {
+    "item": "bgpPeerAfEntry.treatAswithDrawnPaths"
+  },
+  {
+    "item": "bgpPeerAfEntry.type"
+  },
+  {
+    "item": "bgpPeerAfEntry.withDrawnPaths"
+  },
+  {
+    "item": "bgpPeerEntry.addr"
+  },
+  {
+    "item": "bgpPeerEntry.advCap"
+  },
+  {
+    "item": "bgpPeerEntry.childAction"
+  },
+  {
+    "item": "bgpPeerEntry.connAttempts"
+  },
+  {
+    "item": "bgpPeerEntry.connDrop"
+  },
+  {
+    "item": "bgpPeerEntry.connEst"
+  },
+  {
+    "item": "bgpPeerEntry.connIf"
+  },
+  {
+    "item": "bgpPeerEntry.fd"
+  },
+  {
+    "item": "bgpPeerEntry.flags"
+  },
+  {
+    "item": "bgpPeerEntry.holdIntvl"
+  },
+  {
+    "item": "bgpPeerEntry.kaIntvl"
+  },
+  {
+    "item": "bgpPeerEntry.lastFlapTs" 
+  },
+  {
+    "item": "bgpPeerEntry.localIp"
+  },
+  {
+    "item": "bgpPeerEntry.localPort"
+  },
+  {
+    "item": "bgpPeerEntry.maxConnRetryIntvl"
+  },
+  {
+    "item": "bgpPeerEntry.operSt"
+  },
+  {
+    "item": "bgpPeerEntry.operSt/code"
+  },
+  {
+    "item": "bgpPeerEntry.passwdSet"
+  },
+  {
+    "item": "bgpPeerEntry.peerIdx"
+  },
+  {
+    "item": "bgpPeerEntry.prevOperSt"
+  },
+  {
+    "item": "bgpPeerEntry.rcvCap"
+  },
+  {
+    "item": "bgpPeerEntry.remotePort"
+  },
+  {
+    "item": "bgpPeerEntry.rn"
+  },
+  {
+    "item": "bgpPeerEntry.rtrId"
+  },
+  {
+    "item": "bgpPeerEntry.shutStQual"
+  },
+  {
+    "item": "bgpPeerEntry.stReason"
+  },
+  {
+    "item": "bgpPeerEntry.status"
+  },
+  {
+    "item": "bgpPeerEntry.type"
+  },
+  {
+    "item": "bgpPeerEntry.updateElapsedTs"   
   }
-]
+ ] 
