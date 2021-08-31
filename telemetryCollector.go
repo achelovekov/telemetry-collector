@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 
@@ -21,6 +22,7 @@ func worker(src map[string]interface{}, ESClient cu.ESClient, ESIndex string, pa
 	/* 	cu.PrettyPrint(src) */
 
 	cu.FlattenMap(src, path, pathIndex, pathPassed, mode, header, &buf, filter, enrich, keysLeftFromPrevLayer)
+	fmt.Println(path.PathData)
 	cu.ESPush(ESClient, ESIndex, buf)
 }
 
