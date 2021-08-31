@@ -1,6 +1,6 @@
 {
   "PathOptions": {
-    "IgnoreTail": false
+    "IgnoreTail": true
   },
   "PathData":[
   {
