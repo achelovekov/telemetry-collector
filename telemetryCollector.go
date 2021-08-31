@@ -21,7 +21,7 @@ func worker(src map[string]interface{}, ESClient cu.ESClient, ESIndex string, pa
 
 	/* 	cu.PrettyPrint(src) */
 
-	fmt.Println(path.PathData)
+	fmt.Println(path.PathData, "len:", len(path.PathData))
 	cu.FlattenMap(src, path, pathIndex, pathPassed, mode, header, &buf, filter, enrich, keysLeftFromPrevLayer)
 	cu.ESPush(ESClient, ESIndex, buf)
 }
