@@ -22,7 +22,7 @@
     "ChunkName": "rib",
     "Paths": [
       {
-        "Path":"PathFiles/MDTPathRIBUpdate.json"
+        "Path":"PathFiles/MDTPathRIBDelete.json"
       }
     ]  
   },
